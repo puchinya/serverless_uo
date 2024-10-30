@@ -1,11 +1,11 @@
 {
-  "name": "serverless_uo",
+  "name": "@puchinya/serverless_uo",
   "version": "3.0.0",
   "description": "Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more",
   "preferGlobal": true,
   "homepage": "https://serverless.com/framework/docs/",
-  "author": "serverless.com",
-  "repository": "puchinya/serverless_uo",
+  "author": "puchinya",
+  "repository": "https://github.com/puchinya/serverless_uo.git",
   "keywords": [
     "serverless",
     "lambda",
@@ -249,5 +249,8 @@
   "engines": {
     "node": ">=12.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
