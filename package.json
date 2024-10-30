@@ -218,7 +218,7 @@
     "*.js": [
       "eslint"
     ],
-    "*.{css,html,js,json,md,yaml,yml}": [
+    "*.{css,html,js,json,yaml,yml}": [
       "prettier -c"
     ]
   },
